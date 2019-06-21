@@ -1,0 +1,32 @@
+#wrapper {
+    background-color: #ffff66;
+}
+.portfolio {
+    display: flex;
+	flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+	padding: 0 30px;
+    text-align: center;
+}
+
+.icons {
+    text-align: center;
+    font-size: 50px;
+}
+
+a .icon {
+    color: black;
+}
+.main-heading {
+    font-size: 50px;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-weight: 50;
+}
+
+.sub-heading {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: 20;
+}
