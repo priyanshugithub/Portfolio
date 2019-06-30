@@ -12,6 +12,10 @@ const About = () => {
     <h2 class="f5 fw4 gray mt0">Junior Fullstack Developer</h2>
   </div>
 </article>
+<br />
+<br />
+<br />
+<h3>Full Time Remote Fullstack Developer with an excellent work ethic and an ability to learn and adapt to a changing environment. Currently looking for Full Time Opportunity as a Fullstack Developer(Pan-India). I have also been a Full Stack and Mobile Web Specialist Nanodegree Graduate from Udacity and been the Team Leader for my College Project which demonstrates my ability to work effectively in teams and build strong relationships. My most recent Resume is attached below for more info on my projects and recent work. </h3>
         </div>
     );
 };
