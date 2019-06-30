@@ -1,24 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Particles from 'react-particles-js';
 import './index.css';
+import App from './App';
 
-class App extends React.Component {
-    render() {
-        return(
-        <div id="wrapper">
-        <div className="portfolio">
-        <h1 className="main-heading">Hi,I'm Priyanshu!!</h1>
-        <h3 className="sub-heading">Junior Fullstack Developer</h3>
-        <br />
-        <div className="icons">
-        <a href="https://github.com/priyanshugithub" target="_blank" rel="noopener noreferrer"><i className="github square icon"></i></a>
-        <a href="https://www.linkedin.com/in/priyanshutyagi1996/" target="_blank" rel="noopener noreferrer"><i className="linkedin icon"></i></a>
-        <a href="https://twitter.com/priyanshucodes" target="_blank" rel="noopener noreferrer"><i className="twitter square icon"></i></a>
-        </div>
-        
-        </div>
-        </div>);
-    }
-}
+ReactDOM.render(<App />, document.getElementById('root'));
 
-ReactDOM.render(<App />, document.querySelector('#root'));
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA

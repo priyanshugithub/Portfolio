@@ -1,0 +1,50 @@
+.particles {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.portfolio {
+    display: flex;
+	flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+	padding: 0 30px;
+    text-align: center;
+}
+
+.icons {
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    margin-top: 40px;
+}
+
+a .icon {
+    color: black;
+}
+
+.index {
+    font-size: 30px;
+    margin-bottom: 10px;    
+}
+
+.index a {
+    color: black;
+}
+.main-heading {
+    font-size: 50px;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-weight: 50;
+}
+
+.sub-heading {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-weight: 20;
+    font-style: italic;
+}

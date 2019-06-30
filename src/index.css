@@ -1,32 +1,15 @@
-#wrapper {
-    background-color: #ffff66;
-}
-.portfolio {
-    display: flex;
-	flex-direction: column;
-    min-height: 100vh;
-    justify-content: center;
-	padding: 0 30px;
-    text-align: center;
-}
-
-.icons {
-    text-align: center;
-    font-size: 50px;
-}
-
-a .icon {
-    color: black;
-}
-.main-heading {
-    font-size: 50px;
-    font-family: "Lucida Console", Monaco, monospace;
-    font-weight: 50;
-}
-
-.sub-heading {
-    margin-top: 10px;
-    margin-bottom: 20px;
-    font-size: 25px;
-    font-weight: 20;
-}
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding: 0;
+    background: #ffff66; /* w3c */
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+      monospace;
+  }
