@@ -1,98 +1,85 @@
 import React from 'react';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
+import './Experience.css';
 
 const Experience = () => {
     return(
         <div>
+        <h1 id="main-heading">Experience & Education</h1>
+        <br />
+        
         <VerticalTimeline>
-  <VerticalTimelineElement
-    className="vertical-timeline-element--work"
-    date="2011 - present"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-    icon={<i className="github square icon"></i>}
-  >
-    <h3 className="vertical-timeline-element-title">Creative Director</h3>
-    <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
-    <p>
-      Creative Direction, User Experience, Visual Design, Project Management, Team Leading
-    </p>
-  </VerticalTimelineElement>
-  <VerticalTimelineElement
-    className="vertical-timeline-element--work"
-    date="2010 - 2011"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-    icon={<i className="github square icon"></i>}
-  >
-    <h3 className="vertical-timeline-element-title">Art Director</h3>
-    <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
-    <p>
-      Creative Direction, User Experience, Visual Design, SEO, Online Marketing
-    </p>
-  </VerticalTimelineElement>
-  <VerticalTimelineElement
-    className="vertical-timeline-element--work"
-    date="2008 - 2010"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-    icon={<i className="github square icon"></i>}
-  >
-    <h3 className="vertical-timeline-element-title">Web Designer</h3>
-    <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
-    <p>
-      User Experience, Visual Design
-    </p>
-  </VerticalTimelineElement>
-  <VerticalTimelineElement
-    className="vertical-timeline-element--work"
-    date="2006 - 2008"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-    icon={<i className="github square icon"></i>}
-  >
-    <h3 className="vertical-timeline-element-title">Web Designer</h3>
-    <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
-    <p>
-      User Experience, Visual Design
-    </p>
-  </VerticalTimelineElement>
+        <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        date="Aug 2018 - Jun 2019"
+      >
+        <h3 className="vertical-timeline-element-title">Junior Full Stack Developer</h3>
+        <h4 className="vertical-timeline-element-subtitle">Fulltime Remote</h4>
+        <p>
+          
+        </p>
+      </VerticalTimelineElement>
+      
   <VerticalTimelineElement
     className="vertical-timeline-element--education"
-    date="April 2013"
-    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-    icon={<i className="github square icon"></i>}
+    date="Feb 2018 - Nov 2018"
   >
-    <h3 className="vertical-timeline-element-title">Content Marketing for Web, Mobile and Social Media</h3>
-    <h4 className="vertical-timeline-element-subtitle">Online Course</h4>
+    <h3 className="vertical-timeline-element-title">Google Developer Challenge Scholarship</h3>
+    <h4 className="vertical-timeline-element-subtitle">Mobile Web Specialist Track</h4>
     <p>
-      Strategy, Social Media
+      Selected among 150 recipients for Mobile Web Specialist Track by Google & Udacity
     </p>
   </VerticalTimelineElement>
+
   <VerticalTimelineElement
     className="vertical-timeline-element--education"
-    date="November 2012"
-    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-    icon={<i className="github square icon"></i>}
+    date="Aug 2014 - July 2018"
+    
   >
-    <h3 className="vertical-timeline-element-title">Agile Development Scrum Master</h3>
-    <h4 className="vertical-timeline-element-subtitle">Certification</h4>
+    <h3 className="vertical-timeline-element-title">Bachelors of Technology</h3>
+    <h4 className="vertical-timeline-element-subtitle">Computer Science & Engineering</h4>
     <p>
-      Creative Direction, User Experience, Visual Design
+      RKGIT, Ghaziabad
     </p>
   </VerticalTimelineElement>
+
+
+      <VerticalTimelineElement
+    className="vertical-timeline-element--education"
+    date="Aug 2017 - Jan 2018"
+  >
+    <h3 className="vertical-timeline-element-title">Project Team Lead</h3>
+    <h4 className="vertical-timeline-element-subtitle">Final Year Project</h4>
+    <p>
+      Worked as Team Lead alongwith my two team members to develop our final year project
+    </p>
+  </VerticalTimelineElement>
+
   <VerticalTimelineElement
     className="vertical-timeline-element--education"
-    date="2002 - 2006"
-    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-    icon={<i className="github square icon"></i>}
+    date="Sep 2017"
   >
-    <h3 className="vertical-timeline-element-title">Bachelor of Science in Interactive Digital Media Visual Imaging</h3>
-    <h4 className="vertical-timeline-element-subtitle">Bachelor Degree</h4>
+    <h3 className="vertical-timeline-element-title">FullStack Nanodegree</h3>
+    <h4 className="vertical-timeline-element-subtitle">Udacity</h4>
     <p>
-      Creative Direction, Visual Design
+      Completed FullStack Nanodegree Certification by Udacity, worked on multiple projects in Front End as well as Back End
     </p>
   </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    date="May 2017 - June 2017"
+  >
+    <h3 className="vertical-timeline-element-title">Web Development Intern</h3>
+    <h4 className="vertical-timeline-element-subtitle">Bhopal, Madhya Pradesh</h4>
+    <p>
+      Web Development, Web Design, Web Hosting
+    </p>
+  </VerticalTimelineElement>
+
   <VerticalTimelineElement
     iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
-    icon={<i className="github square icon"></i>}
   />
 </VerticalTimeline>
         </div>
