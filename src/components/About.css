@@ -1,3 +1,12 @@
+.particles {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
 .about {
     top:0;
     bottom: 0;
@@ -7,3 +16,27 @@
     height: 100vh !important;
     background: white;
 }
+
+.name{
+    font-style: italic;
+}
+
+.pic {
+    border: 4px solid rgba(22, 136, 254, 0.5);
+}
+.position {
+    font-style: oblique;
+}
+
+.bio{
+    padding-left: 200px;
+    padding-right:200px;
+    font-size:20px;
+    text-align: justify;
+    font-weight:450;
+    font-family:monospace;
+}
+.photo-wrapper {
+    padding-top:40px;
+}
+
