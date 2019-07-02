@@ -1,10 +1,11 @@
 import React from 'react';
 import {  } from 'react-bootstrap';
 import profilepic from '../img/my.jpg';
+import './About.css';
 
 const About = () => {
     return(
-        <div>
+        <div className="about">
         <article class="mw5 center bg-white br3 pa3 pa4-ns mv3 ba b--black-10">
   <div class="tc">
     <img src={profilepic} class="br-100 h6 w4 dib ba b--black-05 pa2" title="Photo of a kitty staring at you" />
